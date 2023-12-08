@@ -1,7 +1,11 @@
 const express = require('express');
+
 const app = express();
+
 require('dotenv').config()
+//puerto 8082
 const port = process.env.PORT;
+
 
 app.use(express.static('public'));
 
